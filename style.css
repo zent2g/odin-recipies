@@ -6,8 +6,17 @@ a:hover{
     color: red;
 }
 
+.header a{
+    padding: 10px 10px;
+    
+}
 
 #container{
     text-align: center;
     list-style: inside;
+}
+
+.listorder li{
+    display: inline;
+    padding: 10px 10px;
 }
