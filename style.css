@@ -1,9 +1,14 @@
 a{
     text-decoration: none;
+    color: blue;
 }
 
 a:hover{
     color: red;
+}
+
+body{
+    background-color: bisque;
 }
 
 .header a{
@@ -15,8 +20,38 @@ a:hover{
     text-align: center;
     list-style: inside;
 }
+/*Lasagna*/
+.header h1 .red{
+    color: red;
+}
+
+.header h1 .green{
+    color: green;
+}
+
+.header h1{
+    color: white;
+}
+
+/*Swedish meatball sauce*/
+.header h1 .blue{
+    color: #006AA7;
+}
+
+.header h1 .yellow{
+    color: gold;
+}
+/*FriedRice*/
+.header .chinesered{
+    color: #df2407;
+}
 
 .listorder li{
     display: inline;
     padding: 10px 10px;
+}
+
+.lasagnaGuide h3,
+.heading2 h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
