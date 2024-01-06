@@ -48,10 +48,17 @@ body{
 
 .listorder li{
     display: inline;
+    border: 2px solid black;
+    border-radius: 10px;
     padding: 10px 10px;
+    margin: 50px;
 }
 
 .lasagnaGuide h3,
 .heading2 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0px 15px;
 }
